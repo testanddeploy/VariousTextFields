@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Rezzza" => "contact@verylastroom.com" }
   s.source       = { :git => "https://github.com/testanddeploy/VariousTextFields.git", :tag => "0.1.3" }
-  s.source_files = "Files/*.{h,m}"
+  s.source_files = "Pod/Classes/*.{h,m}"
   s.requires_arc = true
   s.platform     = 'ios'
   s.ios.deployment_target = "6.0"
